@@ -3,7 +3,7 @@
 // Expected Output : 'abeemrstw'
 // Assume punctuation and numbers symbols are not included in the passed string.
 function alphabetical(element: string) {
-  let sequence = element.split(" ").sort().join();
+  let sequence = element.split("").sort().join("");
 
   return sequence;
 }
